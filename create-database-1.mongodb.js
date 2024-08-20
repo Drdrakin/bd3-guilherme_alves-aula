@@ -9,5 +9,3 @@ use(database);
 
 /* Criar uma coleção de dados */
 db.createCollection(collection);
-
-
