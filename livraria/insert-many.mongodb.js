@@ -4,7 +4,7 @@ const collection = 'livraria';
 
 use(database);
 
-
+//Nessa estrutura, é enviado um vetor com os objetos json dentro dele então temos, respectivamente a função, o array, e o objeto ( [ { } ] )
 
 db[collection].insertMany(
     [
@@ -72,4 +72,5 @@ db[collection].insertMany(
             "categoria":"Fantasia Heroica"
         }
     ]
-)
+);
+

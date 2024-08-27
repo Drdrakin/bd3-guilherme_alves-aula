@@ -4,4 +4,5 @@ const collection = 'livraria';
 
 use(database);
 
-db[collection].find({"codigo": "4"});
+//find() sem parametro puxa todos os dados
+db[collection].find();
