@@ -6,7 +6,6 @@ use(database);
 
 const query = {"descricao" : /robô/i };
 
-
 //O famoso 'LIKE' é usado no mongo db com / antes e depois
 //O argumento opcional i pode ser declarado para dizer especificar
 //"case INSENSITIVE" 
