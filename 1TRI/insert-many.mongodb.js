@@ -70,6 +70,15 @@ db[collection].insertMany(
             "imagem":"/livros/retorno_rei.jpg",
             "valor": 120,
             "categoria":"Fantasia Heroica"
+        },
+        {
+            "codigo":"10",
+            "titulo": "Ordem Vermelha",
+            "autor": "Felipe Castilho",
+            "descricao":"Os filhos da degradação",
+            "imagem":"/livros/retorno_rei.jpg",
+            "valor": 30,
+            "categoria":"Aventura"
         }
     ]
 );

@@ -1,0 +1,19 @@
+const database = 'bd3-guilherme_alves-aula';
+
+const collection = 'livraria';
+
+use(database);
+
+//Listar os livros do tolkien em ordem crescente de valor
+db[collection].find(
+    {   
+        autor: "J.R.R Tolkien"
+    }
+).sort({valor:1})
+
+//Listar os livros do tolkien em ordem descrescente de valor
+db[collection].find(
+    {   
+        autor: "J.R.R Tolkien"
+    }
+).sort({valor:-1})
